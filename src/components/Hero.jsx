@@ -1,6 +1,6 @@
 import React from 'react';
 import image from '../assets/img/Founder.jpg'; // Make sure this path is correct
-import logo from '../assets/img/logo.png'; // Add this import
+import logo from '../assets/img/Logo.png'; // Add this import
 import { Mail, Phone } from 'lucide-react';
 import { FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
