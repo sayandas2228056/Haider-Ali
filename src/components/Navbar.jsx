@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import logo from '../assets/img/Logo.png';
 const navLinks = [
   { label: 'Intro', href: '#intro' },
   { label: 'About', href: '#about' },
@@ -37,7 +37,7 @@ const Navbar = () => {
         <a href="/" className="flex items-center gap-2">
           {!isScrolled && (
             <img 
-              src="/src/assets/img/Logo.png" 
+              src={logo} 
               alt="Logo"
               className="h-8 w-8 rounded-full"
             />
