@@ -35,9 +35,9 @@ const App = () => {
           <Works/>
           <Contact/>
           <Footer/>
+          <Cont />
         </>
       )}
-      <Cont />
     </div>
   )
 }
