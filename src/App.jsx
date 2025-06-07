@@ -13,13 +13,26 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading time and ensure all resources are loaded
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 3000); // Show loading screen for at least 3 seconds
+    // Function to handle when everything is loaded
+    const handleLoad = () => {
+      // Add a small delay to ensure smooth transition
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 500);
+    };
 
-    // Cleanup timer
-    return () => clearTimeout(timer);
+    // Check if the page is already loaded
+    if (document.readyState === 'complete') {
+      handleLoad();
+    } else {
+      // Add event listener for when everything is loaded
+      window.addEventListener('load', handleLoad);
+    }
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('load', handleLoad);
+    };
   }, []);
 
   return (
