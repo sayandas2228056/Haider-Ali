@@ -5,8 +5,9 @@ import About from './components/About'
 import Education from './components/Education'
 import Works from './components/works'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Footer from './components/Footer'  
 import Loading from './components/Loading'
+import Cont from './components/Cont'
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,6 +37,7 @@ const App = () => {
           <Footer/>
         </>
       )}
+      <Cont />
     </div>
   )
 }
