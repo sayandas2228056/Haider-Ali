@@ -3,6 +3,7 @@ import image from '../assets/img/Founder.jpg'; // Make sure this path is correct
 import logo from '../assets/img/Logo.png'; // Add this import
 import { Mail, Phone } from 'lucide-react';
 import { FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Hero = () => {
@@ -136,13 +137,12 @@ const Hero = () => {
                   className="h-32 w-auto drop-shadow-lg rounded-xl"
                 />
               </div>
-              <p className="text-blue-200 text-sm font-light">Innovating for a Better Tomorrow</p>
             </motion.div>
           </motion.div>
           <motion.h1 variants={itemVariants} className="text-4xl sm:text-5xl lg:text-6xl font-bold">
             I'm <span className="text-white">Haider Ali</span>
           </motion.h1>
-          <motion.h2 variants={itemVariants} className="text-xl sm:text-2xl font-light">Founder and CEO</motion.h2>
+          <motion.h2 variants={itemVariants} className="text-xl sm:text-2xl font-light">Founder & CEO</motion.h2>
           <motion.p variants={itemVariants} className="text-xl sm:text-2xl font-light">at</motion.p>
           <motion.a 
             href="https://www.zenitech.in" 
@@ -158,7 +158,7 @@ const Hero = () => {
             </h3>
           </motion.a>
           <motion.p variants={itemVariants} className="text-base sm:text-lg text-blue-200">
-            based in Bengaluru,<br />India.
+            Bengaluru, India.<br />
           </motion.p>
 
           {/* Social Media Links */}

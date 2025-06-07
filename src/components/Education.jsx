@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Award } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
 import IIITBLogo from '../assets/EduLogo/iiitbofficial_logo.jpeg';
 import IITRLogo from '../assets/EduLogo/indian_institute_of_technology_roorkee_logo.jpeg';
@@ -89,7 +89,7 @@ const Education = () => {
             variants={itemVariants}
             className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
           >
-            Continuous learning and professional development in technology and business leadership
+            Dedicated to evolving skillsets and leadership capabilities in the dynamic world of tech and business.
           </motion.p>
         </motion.div>
 
@@ -198,147 +198,6 @@ const Education = () => {
                       <span className="mr-2">Ramakrishna Mission Vidyamandira</span>
                     </motion.h4>
                     <motion.div variants={itemVariants} className="text-sm text-slate-600">Bachelor of Science</motion.div>
-                  </div>
-                </div>
-              </motion.div>
-            </motion.div>
-          </motion.div>
-
-          {/* Certifications Section */}
-          <motion.div variants={containerVariants}>
-            <motion.h3 
-              variants={itemVariants}
-              className="text-2xl font-bold text-gray-900 mb-8 flex items-center"
-            >
-              <Award className="mr-2 text-blue-600" size={24} />
-              Professional Certifications
-            </motion.h3>
-            <motion.div 
-              className="grid md:grid-cols-2 gap-6"
-              variants={containerVariants}
-            >
-              <motion.div 
-                variants={cardVariants}
-                whileHover="hover"
-                className="bg-slate-50 p-5 rounded-lg border border-slate-100"
-              >
-                <div className="flex items-start">
-                  <motion.div 
-                    className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4"
-                    whileHover={{ scale: 1.1, rotate: 360 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Award className="text-blue-600" size={20} />
-                  </motion.div>
-                  <div>
-                    <motion.div variants={itemVariants} className="text-xs font-medium text-blue-900 mb-1">2023</motion.div>
-                    <motion.h4 variants={itemVariants} className="text-base font-semibold text-slate-900 mb-1">AWS Certified Solutions Architect</motion.h4>
-                    <motion.div variants={itemVariants} className="text-sm text-slate-600">Amazon Web Services (AWS)</motion.div>
-                  </div>
-                </div>
-              </motion.div>
-
-              <motion.div 
-                variants={cardVariants}
-                whileHover="hover"
-                className="bg-slate-50 p-5 rounded-lg border border-slate-100"
-              >
-                <div className="flex items-start">
-                  <motion.div 
-                    className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4"
-                    whileHover={{ scale: 1.1, rotate: 360 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Award className="text-blue-600" size={20} />
-                  </motion.div>
-                  <div>
-                    <motion.div variants={itemVariants} className="text-xs font-medium text-blue-900 mb-1">2023</motion.div>
-                    <motion.h4 variants={itemVariants} className="text-base font-semibold text-slate-900 mb-1">Microsoft Certified: Azure Solutions Architect Expert</motion.h4>
-                    <motion.div variants={itemVariants} className="text-sm text-slate-600">Microsoft</motion.div>
-                  </div>
-                </div>
-              </motion.div>
-
-              <motion.div 
-                variants={cardVariants}
-                whileHover="hover"
-                className="bg-slate-50 p-5 rounded-lg border border-slate-100"
-              >
-                <div className="flex items-start">
-                  <motion.div 
-                    className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4"
-                    whileHover={{ scale: 1.1, rotate: 360 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Award className="text-blue-600" size={20} />
-                  </motion.div>
-                  <div>
-                    <motion.div variants={itemVariants} className="text-xs font-medium text-blue-900 mb-1">2022</motion.div>
-                    <motion.h4 variants={itemVariants} className="text-base font-semibold text-slate-900 mb-1">CISSP - Certified Information Systems Security Professional</motion.h4>
-                    <motion.div variants={itemVariants} className="text-sm text-slate-600">(ISC)²</motion.div>
-                  </div>
-                </div>
-              </motion.div>
-
-              <motion.div 
-                variants={cardVariants}
-                whileHover="hover"
-                className="bg-slate-50 p-5 rounded-lg border border-slate-100"
-              >
-                <div className="flex items-start">
-                  <motion.div 
-                    className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4"
-                    whileHover={{ scale: 1.1, rotate: 360 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Award className="text-blue-600" size={20} />
-                  </motion.div>
-                  <div>
-                    <motion.div variants={itemVariants} className="text-xs font-medium text-blue-900 mb-1">2021</motion.div>
-                    <motion.h4 variants={itemVariants} className="text-base font-semibold text-slate-900 mb-1">VMware Certified Professional - Data Center Virtualization</motion.h4>
-                    <motion.div variants={itemVariants} className="text-sm text-slate-600">VMware</motion.div>
-                  </div>
-                </div>
-              </motion.div>
-
-              <motion.div 
-                variants={cardVariants}
-                whileHover="hover"
-                className="bg-slate-50 p-5 rounded-lg border border-slate-100"
-              >
-                <div className="flex items-start">
-                  <motion.div 
-                    className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4"
-                    whileHover={{ scale: 1.1, rotate: 360 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Award className="text-blue-600" size={20} />
-                  </motion.div>
-                  <div>
-                    <motion.div variants={itemVariants} className="text-xs font-medium text-blue-900 mb-1">2020</motion.div>
-                    <motion.h4 variants={itemVariants} className="text-base font-semibold text-slate-900 mb-1">Project Management Professional (PMP)</motion.h4>
-                    <motion.div variants={itemVariants} className="text-sm text-slate-600">Project Management Institute</motion.div>
-                  </div>
-                </div>
-              </motion.div>
-
-              <motion.div 
-                variants={cardVariants}
-                whileHover="hover"
-                className="bg-slate-50 p-5 rounded-lg border border-slate-100"
-              >
-                <div className="flex items-start">
-                  <motion.div 
-                    className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4"
-                    whileHover={{ scale: 1.1, rotate: 360 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Award className="text-blue-600" size={20} />
-                  </motion.div>
-                  <div>
-                    <motion.div variants={itemVariants} className="text-xs font-medium text-blue-900 mb-1">2019</motion.div>
-                    <motion.h4 variants={itemVariants} className="text-base font-semibold text-slate-900 mb-1">ITIL v4 Foundation</motion.h4>
-                    <motion.div variants={itemVariants} className="text-sm text-slate-600">AXELOS</motion.div>
                   </div>
                 </div>
               </motion.div>

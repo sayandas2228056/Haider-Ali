@@ -43,7 +43,7 @@ const Navbar = () => {
             />
           )}
           <span className={`text-xl md:text-3xl font-serif font-bold tracking-tight transition-colors duration-300 text-white`}>
-            Haider Ali.
+            Haider Ali
           </span>
         </a>
       </div>

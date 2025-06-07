@@ -19,7 +19,7 @@ const Works = () => {
     {
       icon: <Globe className="text-blue-600" size={24} />,
       title: "Strategic Partnerships",
-      description: "Partnerships with AWS, Microsoft Azure, Google Cloud, Fortinet, VMware, and more",
+      description: "Partnerships with AWS, Azure, Google Cloud, OVHcloud, ESDS, Serverwala, Jio Cloud, Microsoft, Google, Adobe, Anydesk, Dropbox, Acronis, OpenText, Veeam, eScan, ESET, NinjaOne, ManageEngine, Axidian, Bitdefender, Kaspersky, Safetica, Netrix, WatchGuard, Malwarebytes, Trend Micro, Symantec, Fortinet, Sophos, SonicWall, Checkpoint, Barracuda, Tata Tele, Reliance Jio, RCOM, KrispCall, Stringee, GreytHR, etc.",
       year: "2021-Present"
     },
     {
@@ -31,7 +31,7 @@ const Works = () => {
     {
       icon: <Award className="text-blue-600" size={24} />,
       title: "Sales Excellence",
-      description: "Multiple awards including Foreign Tours for over-achieving targets at RCom",
+      description: "Multiple awards including Foreign Tours for over-achieving targets at RCOM",
       year: "2011-2020"
     },
     {
@@ -50,8 +50,8 @@ const Works = () => {
       location: "Bengaluru, India",
       highlights: [
         "Leading IT Services & Consulting firm offering Cloud, Cybersecurity, Software, and Telecom services",
-        "Delivering solutions across India and globally with partnerships from AWS, Microsoft Azure, Google Cloud, and more",
-        "Specializing in Cloud Solutions, Cyber Security, Telecom Services, and Software Licensing"
+        " Delivering solutions across India and globally with partnerships from AWS, Azure, Google Cloud, OVHcloud, ESDS, Serverwala, Jio Cloud, Microsoft, Google, Adobe, Anydesk, Dropbox, Acronis, OpenText, Veeam, eScan, ESET, NinjaOne, ManageEngine, Axidian, Bitdefender, Kaspersky, Safetica, Netrix, WatchGuard, Malwarebytes, Trend Micro, Symantec, Fortinet, Sophos, SonicWall, Checkpoint, Barracuda, Tata Tele, Reliance Jio, RCOM, KrispCall, Stringee, GreytHR, etc.",
+
       ]
     },
     {
@@ -60,9 +60,10 @@ const Works = () => {
       period: "Oct 2020 - Sep 2021",
       location: "Kolkata, India",
       highlights: [
-        "Led business operations and strategic initiatives",
+        "Lead business operations and strategic initiatives for Naush Group",
         "Managed enterprise client relationships",
         "Drove business growth and development"
+
       ]
     },
     {
@@ -73,7 +74,7 @@ const Works = () => {
       highlights: [
         "Managed top enterprise customers across East Region (West Bengal, Bihar, Jharkhand, Assam)",
         "Awarded Foreign Tour twice for over-achieving sales targets",
-        "Executed major orders including Allahabad Bank (1500 locations) and multiple cloud solutions"
+        "Executed major orders including Allahabad Bank (1500 locations). "
       ]
     },
     {
@@ -82,7 +83,7 @@ const Works = () => {
       period: "Feb 2010 - Jul 2011",
       location: "Bangalore, India",
       highlights: [
-        "Led team of 15 personnel for B2B customer engagement",
+        "Lead team of 15 personnel for B2B customer engagement",
         "Received Gold Award for increasing revenue from enterprise customers",
         "Overachieved AOP targets and managed multiple industry verticals"
       ]
@@ -93,7 +94,7 @@ const Works = () => {
       period: "Sep 2009 - Jan 2010",
       location: "Bangalore, India",
       highlights: [
-        "Managed strategic customers including Intel, Microsoft, AOL, Capgemini, Toyota Kirloskar",
+        "Managed strategic customers including Intel, Microsoft, AOL, Capgemini, Toyota Kirloskar and many more.",
         "Responsible for sales targets, revenue maximization, and customer retention",
         "Developed customized solutions for enterprise clients"
       ]
@@ -104,7 +105,7 @@ const Works = () => {
       period: "Dec 2007 - Jun 2009",
       location: "Bangalore, India",
       highlights: [
-        "Handled key clients including Continental, Volvo, PUMA, Quintiles, and Monsanto",
+        "Handled key clients including Continental, Volvo, PUMA, Quintiles, Monsanto and many more.",
         "Managed existing customers and identified new market opportunities",
         "Analyzed competitor offerings and implemented cost-saving solutions"
       ]
@@ -117,7 +118,7 @@ const Works = () => {
       highlights: [
         "Handled key clients including BSNL, RBI, C-DAC, DRDO Labs, ISRO, and various banks",
         "Managed large bids and turnkey IT projects for government tenders",
-        "Built strong OEM relationships with HP, IBM, Dell, Cisco, Microsoft, and others"
+        "Built strong OEM relationships with HP, IBM, Dell, Cisco, Microsoft, and others."
       ]
     },
     {
@@ -126,7 +127,7 @@ const Works = () => {
       period: "Jul 2001 - May 2005",
       location: "New Delhi and Bangalore, India",
       highlights: [
-        "Handled major clients including Apollo Hospitals, Daimler Chrysler, Schneider Electric",
+        "Handled major clients including Apollo Hospitals, Daimler Chrysler, Schneider Electric and many more.",
         "Over-achieved sales targets consistently",
         "Built strong rapport with OEMs for lead generation and deal closure"
       ]
@@ -137,9 +138,9 @@ const Works = () => {
       period: "Jul 1998 - Jun 2001",
       location: "New Delhi, India",
       highlights: [
-        "Managed key clients including Siemens, Citicorp, and various corporate accounts",
+        "Managed key clients including Siemens, Citicorp, and various corporate customers",
         "Closed major orders including 500+ PCs from Siemens",
-        "Developed new accounts and maintained strategic partnerships"
+        "Developed new customers ."
       ]
     }
   ];
@@ -311,9 +312,9 @@ const Works = () => {
               variants={containerVariants}
             >
               {[
-                "25+ years of experience in Enterprise IT & Telecom Solutions",
-                "Expertise in Cloud Infrastructure and Cybersecurity",
-                "Extensive experience with Fortune 500 companies and Government clients"
+                "25+ years of experience in Enterprise IT & Telecom Services",
+                "Expertise in Cloud and Cybersecurity Solutions",
+                "Extensive experience with Fortune 500 companies and clients"
               ].map((highlight, index) => (
                 <motion.div 
                   key={index}

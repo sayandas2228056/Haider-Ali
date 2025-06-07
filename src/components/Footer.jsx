@@ -14,7 +14,7 @@ const Footer = () => {
             className="text-center md:text-left text-sm sm:text-base mb-2 md:mb-0"
           >
             <p className="text-blue-200">
-              <span className="font-semibold">Haider Ali</span> - Founder and CEO of{' '}
+              <span className="font-semibold">Haider Ali</span> - Founder & CEO at{' '}
               <a
                 href="https://www.zenitech.in"
                 target="_blank"

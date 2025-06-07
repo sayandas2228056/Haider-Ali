@@ -102,28 +102,34 @@ const About = () => {
                 variants={itemVariants}
                 className="text-2xl sm:text-3xl font-semibold text-gray-900"
               >
-                Haider Ali - Founder & CEO at{' '}
+                Haider Ali
+              </motion.h3>
+              <motion.h4
+                variants={itemVariants}
+                className="text-xl sm:text-2xl font-semibold text-gray-900"
+              >
                 <a 
                   href="https://www.zenitech.in" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  <span className="text-orange-500">Zenitech</span>
+                  Founder & CEO at{' '}
+                  <span className="text-orange-500">Zenitech </span>
                   <span className="text-blue-600">Solutions</span>
                 </a>
-              </motion.h3>
+              </motion.h4>
               
               <motion.div 
                 className="space-y-4 text-gray-700 leading-relaxed"
                 variants={containerVariants}
               >
                 <motion.p variants={itemVariants} className="text-base sm:text-lg">
-                  With over 20 years of extensive experience in technology leadership and business innovation, I founded Zenitech Solutions as a premier IT solutions provider based in Bengaluru. We specialize in comprehensive digital transformation services including cloud computing, cybersecurity solutions, enterprise software development, telecom services, networking infrastructure, and system integration.
+                  With over 20 years of extensive experience in technology solutions , I founded Zenitech Solutions as a premier IT solutions provider based in Bengaluru , India. We specialize in comprehensive digital transformation services including cloud computing, cybersecurity solutions, software solutions, telecom Services, IT Services and System Integration.
                 </motion.p>
                 
                 <motion.p variants={itemVariants} className="text-base sm:text-lg">
-                  As a trusted technology partner and system integrator, Zenitech Solutions delivers customized solutions that address unique business challenges across diverse industries. Our strategic partnerships with industry leaders include AWS, Microsoft Azure, Google Cloud, OVHcloud, Jio Cloud, Fortinet, Sophos, SonicWall, VMware, Dell Technologies, HPE, and numerous other technology innovators.
+                  As a trusted technology partner and system integrator, Zenitech Solutions delivers customized solutions that address unique business challenges across diverse industries. Our strategic partnerships with industry leaders include AWS, Azure, Google Cloud, OVHcloud, ESDS, Serverwala, Jio Cloud, Microsoft, Google, Adobe, Anydesk, Dropbox, Acronis, OpenText, Veeam, eScan, ESET, NinjaOne, ManageEngine, Axidian, Bitdefender, Kaspersky, Safetica, Netrix, WatchGuard, Malwarebytes, Trend Micro, Symantec, Fortinet, Sophos, SonicWall, Checkpoint, Barracuda, Tata Tele, Reliance Jio, RCOM, KrispCall, Stringee, GreytHR, etc.
                 </motion.p>
                 
                 <motion.p variants={itemVariants} className="text-base sm:text-lg">
@@ -142,7 +148,7 @@ const About = () => {
                 whileHover="hover"
                 className="text-center p-4 bg-white rounded-xl shadow-sm border border-gray-100"
               >
-                <div className="text-2xl sm:text-3xl font-bold text-blue-600 mb-1">5+</div>
+                <div className="text-2xl sm:text-3xl font-bold text-blue-600 mb-1">20+</div>
                 <div className="text-sm text-gray-600">Years Experience</div>
               </motion.div>
               <motion.div 
@@ -158,7 +164,7 @@ const About = () => {
                 whileHover="hover"
                 className="text-center p-4 bg-white rounded-xl shadow-sm border border-gray-100 col-span-2 sm:col-span-1"
               >
-                <div className="text-2xl sm:text-3xl font-bold text-purple-600 mb-1">50+</div>
+                <div className="text-2xl sm:text-3xl font-bold text-purple-600 mb-1">500+</div>
                 <div className="text-sm text-gray-600">Enterprise Clients</div>
               </motion.div>
             </motion.div>
@@ -183,51 +189,17 @@ const About = () => {
                 variants={containerVariants}
               >
                 <motion.div variants={itemVariants} className="text-gray-700 font-medium">Cloud Computing</motion.div>
-                <motion.div variants={itemVariants} className="text-gray-700 font-medium">IT Infrastructure</motion.div>
+                <motion.div variants={itemVariants} className="text-gray-700 font-medium">Cyber Security</motion.div>
+                <motion.div variants={itemVariants} className="text-gray-700 font-medium">Software Solutions</motion.div>
+                <motion.div variants={itemVariants} className="text-gray-700 font-medium">Telecom Services</motion.div>
+                <motion.div variants={itemVariants} className="text-gray-700 font-medium">IT Services</motion.div>
+                
                 <motion.div variants={itemVariants} className="text-gray-700 font-medium">System Integration</motion.div>
-                <motion.div variants={itemVariants} className="text-gray-700 font-medium">IT Service Management</motion.div>
-                <motion.div variants={itemVariants} className="text-gray-700 font-medium">IT Operations</motion.div>
-                <motion.div variants={itemVariants} className="text-gray-700 font-medium">IT Strategy</motion.div>
               </motion.div>
             </motion.div>
 
             {/* Services & Solutions */}
-            <motion.div 
-              variants={cardVariants}
-              whileHover="hover"
-              className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-6 sm:p-8 border border-blue-100"
-            >
-              <h4 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-4">
-                Our Solutions
-              </h4>
-              <motion.p 
-                variants={itemVariants}
-                className="text-gray-700 leading-relaxed mb-4"
-              >
-                Comprehensive IT solutions including cloud computing, cybersecurity, software development, telecom, and networking services tailored for enterprise success.
-              </motion.p>
-              <motion.div 
-                className="grid grid-cols-2 gap-2 text-sm text-gray-600"
-                variants={containerVariants}
-              >
-                <motion.div variants={itemVariants} className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
-                  AWS & Azure Cloud
-                </motion.div>
-                <motion.div variants={itemVariants} className="flex items-center">
-                  <div className="w-2 h-2 bg-red-500 rounded-full mr-2"></div>
-                  Cybersecurity
-                </motion.div>
-                <motion.div variants={itemVariants} className="flex items-center">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                  Enterprise Software
-                </motion.div>
-                <motion.div variants={itemVariants} className="flex items-center">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full mr-2"></div>
-                  Network Solutions
-                </motion.div>
-              </motion.div>
-            </motion.div>
+            
           </motion.div>
         </div>
 
